@@ -1,0 +1,6 @@
+[
+    { "hours": { "start": "8:00", "end": "9:00"}, "count": 0, "participants":"guy" },
+    { "hours": { "start": "8:00", "end": "10:00"}, "count": 1, "participants":"malka" },
+    { "hours": { "start": "8:00", "end": "11:00"}, "count": 2, "participants":"xx" },
+    { "hours": { "start": "8:00", "end": "12:00"}, "count": 3, "participants":"yy" }
+]

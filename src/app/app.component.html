@@ -1,0 +1,16 @@
+<h2>stock market</h2>
+<div style="display: flex;">
+  <div style="display: flex;" >
+    <div style="padding: 10px;" ><input  type="text"  [(ngModel)]='quote' /></div>
+    <button (click)="testservice()" style="width: 150px;"  >get quote data</button>
+    <button (click)="additem()" style="width: 150px;"  >add to table</button>
+    <div>
+      {{quote}}
+    </div>
+  </div>
+  <div>
+    <app-selectedquotes [item]="quoteToTable" [additem]="add"    ></app-selectedquotes>
+  </div>
+</div>
+
+
